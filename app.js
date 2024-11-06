@@ -26,6 +26,7 @@ const searchFunction = async (val) => {
 
 const buttonPressed = () => {
   document.getElementById("row").classList.toggle("active");
+  document.getElementById("row").value = "";
 };
 
 let x = 21;
